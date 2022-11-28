@@ -1,11 +1,9 @@
-# Welcome to link 👋
+# Welcome to 小康 Link 👋
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: TszhongLai0411](https://img.shields.io/twitter/follow/TszhongLai0411.svg?style=social)](https://twitter.com/TszhongLai0411)
 
 > Here will be a list of my social media links
-
-### 🏠 [Homepage](https://github.com/tszhong0411/link#readme)
 
 ### ✨ [Demo](https://link.honghong.me)
 
