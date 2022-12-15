@@ -1,13 +1,11 @@
 {
-  "name": "link-new",
-  "version": "0.1.0",
+  "name": "links",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "commit": "gitmoji -c",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -27,9 +25,12 @@
     "typescript": "4.9.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
     "@typescript-eslint/parser": "^5.44.0",
     "autoprefixer": "^10.4.13",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^8.0.0",
