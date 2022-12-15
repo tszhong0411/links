@@ -21,6 +21,8 @@
 - Favicon: [realfavicongenerator](https://realfavicongenerator.net/)
 - Analytics: [Vercel](https://vercel.com/)
 - Styling: [Tailwindcss](https://tailwindcss.com)
+- Icon: [react-icons](https://react-icons.github.io/react-icons/)
+- Animation: [Framer Motion](https://www.framer.com/motion/)
 
 ## 🚀 Demo
 
