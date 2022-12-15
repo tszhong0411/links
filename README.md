@@ -1,5 +1,5 @@
 <h1 align="center">
- 小康 blog
+ 小康 Links
 </h1>
 
 <p align="center">
