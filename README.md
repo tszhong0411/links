@@ -9,9 +9,9 @@
 <p align="center">
     <a href="https://links.honghong.me" target="blank">View Demo</a>
     ·
-    <a href="https://github.com/tszhong0411/links/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/TszHong0411/links/issues/new">Report Bug</a>
     ·
-    <a href="https://github.com/tszhong0411/links/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/tszhong0411/links/issues/new">Request Feature</a>
 </p>
 
 ## 🌍 links.honghong.me
