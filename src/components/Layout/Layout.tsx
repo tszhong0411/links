@@ -1,7 +1,8 @@
 import { useRouter } from 'next/router'
 import { NextSeo } from 'next-seo'
 
-import { Favicons } from './Favicons'
+import { favicons } from '@/lib/favicons'
+
 import Footer from './Footer'
 
 type LayoutProps = {
@@ -38,7 +39,7 @@ const Layout = (props: LayoutProps) => {
             },
           ],
         }}
-        additionalLinkTags={[...Favicons]}
+        additionalLinkTags={[...favicons]}
       />
       {children}
       <Footer />
