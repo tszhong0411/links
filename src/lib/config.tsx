@@ -6,6 +6,7 @@ import {
   SiGithub,
   SiInstagram,
   SiStackoverflow,
+  SiSteam,
   SiTwitter,
   SiYoutube,
 } from 'react-icons/si'
@@ -42,6 +43,12 @@ export const config: Config = {
       title: 'Facebook',
       url: 'https://www.facebook.com/tszhonglai.0411/',
       color: '#1299f5',
+    },
+    {
+      icon: <SiSteam color='#c4c2bf' />,
+      title: 'Steam',
+      url: 'https://steamcommunity.com/profiles/76561199157324617/',
+      color: '#c4c2bf',
     },
     {
       icon: <SiInstagram color='#f80067' />,
