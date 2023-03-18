@@ -5,13 +5,16 @@ import {
   SiFacebook,
   SiGithub,
   SiInstagram,
+  SiKeybase,
+  SiReddit,
   SiStackoverflow,
   SiSteam,
+  SiTwitch,
   SiTwitter,
   SiYoutube,
 } from 'react-icons/si'
 
-import { DailyDotDev, Keybase } from '@/components/Icon'
+import { DailyDotDev } from '@/components/Icon'
 
 type Link = {
   icon: React.ReactNode
@@ -81,6 +84,18 @@ export const config: Config = {
       color: '#e87921',
     },
     {
+      icon: <SiTwitch color='#a970ff' />,
+      title: 'Twitch',
+      url: 'https://www.twitch.tv/tszhong0411',
+      color: '#a970ff',
+    },
+    {
+      icon: <SiReddit color='#ff4500' />,
+      title: 'Reddit',
+      url: 'https://www.reddit.com/user/TszHong',
+      color: '#ff4500',
+    },
+    {
       icon: <SiDevdotto color='#fff' />,
       title: 'Dev.to',
       url: 'https://dev.to/tszhong0411',
@@ -93,7 +108,7 @@ export const config: Config = {
       color: '#fff',
     },
     {
-      icon: <Keybase />,
+      icon: <SiKeybase color='#ff6f21' />,
       title: 'Keybase',
       url: 'https://keybase.io/tszhong0411',
       color: '#ff6f21',
