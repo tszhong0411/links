@@ -11,7 +11,7 @@ import {
   SiYoutube,
 } from 'react-icons/si'
 
-import { DailyDotDev } from '@/components/Icon'
+import { DailyDotDev, Keybase } from '@/components/Icon'
 
 type Link = {
   icon: React.ReactNode
@@ -91,6 +91,12 @@ export const config: Config = {
       title: 'Daily.dev',
       url: 'https://app.daily.dev/tszhong0411',
       color: '#fff',
+    },
+    {
+      icon: <Keybase />,
+      title: 'Keybase',
+      url: 'https://keybase.io/tszhong0411',
+      color: '#ff6f21',
     },
   ],
 }
