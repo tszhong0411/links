@@ -24,18 +24,6 @@
 - Icon: [react-icons](https://react-icons.github.io/react-icons/)
 - Animation: [Framer Motion](https://www.framer.com/motion/)
 
-## 🚀 Demo
-
-<img src="https://img.shields.io/badge/website-links.honghong.me-blue?style=flat-square&color=black" />
-
-<img src="https://img.shields.io/github/repo-size/tszhong0411/links?style=flat-square&color=green" />
-
-<img src="https://img.shields.io/github/languages/top/tszhong0411/links?style=flat-square" />
-
-<img src="https://img.shields.io/github/commit-activity/m/tszhong0411/links?color=orange&style=flat-square" />
-
-<img src="https://img.shields.io/github/deployments/tszhong0411/links/Production?style=flat-square" />
-
 ## 👋 Running locally
 
 1. Clone this repo
