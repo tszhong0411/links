@@ -5,7 +5,7 @@ import { config } from '@/lib/config'
 
 import Gradient from '@/components/Gradient'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div className='flex mx-auto flex-col items-center gap-4 my-16'>
@@ -53,3 +53,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
