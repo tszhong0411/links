@@ -1,6 +1,9 @@
 {
   "name": "links",
   "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -69,16 +72,16 @@
       "node": true
     },
     "plugins": [
+      "@typescript-eslint",
       "simple-import-sort",
-      "unused-imports",
-      "@typescript-eslint"
+      "unused-imports"
     ],
     "extends": [
       "eslint:recommended",
       "next",
       "next/core-web-vitals",
-      "prettier",
-      "plugin:@typescript-eslint/recommended"
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
     ],
     "rules": {
       "no-unused-vars": "off",
