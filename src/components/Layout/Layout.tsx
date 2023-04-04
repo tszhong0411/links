@@ -33,8 +33,8 @@ const Layout = (props: LayoutProps) => {
           images: [
             {
               url: 'https://honghong.me/static/images/projects/links/cover.png',
-              width: 1600,
-              height: 960,
+              width: 1200,
+              height: 630,
               alt: 'A teenager who want to become a frontend developer',
             },
           ],
