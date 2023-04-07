@@ -7,38 +7,38 @@
 </p>
 
 <p align="center">
-    <a href="https://links.honghong.me" target="blank">線上查看</a>
+    <a href="https://links.honghong.me" target="blank">View Online</a>
     ·
-    <a href="https://github.com/TszHong0411/links/issues/new">回報錯誤</a>
+    <a href="https://github.com/TszHong0411/links/issues/new">Report Bug</a>
     ·
-    <a href="https://github.com/tszhong0411/links/issues/new">要求新功能</a>
+    <a href="https://github.com/tszhong0411/links/issues/new">Request New Feature</a>
 </p>
 
 ## 🌍 links.honghong.me
 
-- 框架: [Next.js](https://nextjs.org/)
-- 部署: [Vercel](https://vercel.com)
-- 網站圖標: [realfavicongenerator](https://realfavicongenerator.net/)
-- 分析: [Vercel](https://vercel.com/)
-- 樣式: [Tailwindcss](https://tailwindcss.com)
-- 圖標: [react-icons](https://react-icons.github.io/react-icons/)
-- 動畫: [Framer Motion](https://www.framer.com/motion/)
+- Framework: [Next.js](https://nextjs.org/)
+- Deployment: [Vercel](https://vercel.com)
+- Favicon: [realfavicongenerator](https://realfavicongenerator.net/)
+- Analytics: [Vercel](https://vercel.com/)
+- Styling: [Tailwindcss](https://tailwindcss.com)
+- Icons: [react-icons](https://react-icons.github.io/react-icons/)
+- Animation: [Framer Motion](https://www.framer.com/motion/)
 
-## 👋 在本地運行
+## 👋 Running Locally
 
-1. Clone 這個倉庫
+1. Clone the repository
 
 ```sh
 git clone https://github.com/tszhong0411/links.git
 ```
 
-2. 更改目錄
+2. Go to the project directory
 
 ```sh
 cd links
 ```
 
-3. 安裝 packages
+3. Install dependencies
 
 ```sh
 yarn
@@ -46,5 +46,5 @@ yarn
 
 <hr>
 <p align="center">
-用 ❤️ 製作在 Hong Kong
+Made with ❤️ in Hong Kong
 </p>
