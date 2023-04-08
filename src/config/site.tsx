@@ -1,3 +1,4 @@
+import { IconDescriptor } from 'next/dist/lib/metadata/types/metadata-types'
 import { FiBook } from 'react-icons/fi'
 import {
   SiDevdotto,
@@ -16,18 +17,47 @@ import {
 
 import { DailyDotDev } from '@/components/Icon'
 
-type Link = {
-  icon: React.ReactNode
-  title: string
+type Site = {
   url: string
-  color: string
+  logo: string
+  title: string
+  name: string
+  titleTemplate: string
+  description: string
+  favicons: IconDescriptor[]
+  links: {
+    icon: React.ReactNode
+    title: string
+    url: string
+    color: string
+  }[]
 }
 
-type Config = {
-  links: Link[]
-}
-
-export const config: Config = {
+export const site: Site = {
+  url:
+    process.env.NODE_ENV === 'production'
+      ? 'https://honghong.me'
+      : 'http://localhost:3000',
+  logo: 'https://honghong.me/static/images/avatar.png',
+  title: '小康 Links',
+  name: '小康',
+  titleTemplate: '- 小康 Links',
+  description:
+    'Connect with me on all my social media profiles through 小康 Links. Discover new content and stay updated with my latest posts!',
+  favicons: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '16x16',
+      url: '/static/favicon/favicon-16x16.png',
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '32x32',
+      url: '/static/favicon/favicon-32x32.png',
+    },
+  ],
   links: [
     {
       icon: <FiBook color='#ff0000' />,

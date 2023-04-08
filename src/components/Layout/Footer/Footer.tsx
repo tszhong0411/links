@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className='flex justify-center my-8'>
+    <footer className='my-8 flex justify-center'>
       &copy; {new Date().getFullYear()} 小康
     </footer>
   )
