@@ -22,6 +22,7 @@ type Site = {
   logo: string
   title: string
   name: string
+  keywords: string[]
   titleTemplate: string
   description: string
   favicons: IconDescriptor[]
@@ -41,6 +42,12 @@ export const site: Site = {
   logo: 'https://honghong.me/static/images/avatar.png',
   title: '小康 Links',
   name: '小康',
+  keywords: [
+    'tszhong0411',
+    'tszhong0411 social media',
+    'tszhong0411 links',
+    'links',
+  ],
   titleTemplate: '- 小康 Links',
   description:
     'Connect with me on all my social media profiles through 小康 Links. Discover new content and stay updated with my latest posts!',
