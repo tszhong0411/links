@@ -25,7 +25,7 @@ const HomePage = () => {
           className='rounded-full'
           priority
         />
-        <h1 className='text-xl font-semibold'>小康</h1>
+        <h1 className='text-xl font-semibold'>Hong</h1>
         <h2 className='text-sm text-gray-400'>
           A student who loves web development
         </h2>

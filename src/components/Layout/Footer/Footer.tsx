@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className='my-8 flex justify-center'>
-      &copy; {new Date().getFullYear()} 小康
+      &copy; {new Date().getFullYear()} Hong
     </footer>
   )
 }

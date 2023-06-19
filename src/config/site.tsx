@@ -40,17 +40,17 @@ export const site: Site = {
       ? 'https://honghong.me'
       : 'http://localhost:3000',
   logo: 'https://honghong.me/static/images/avatar.png',
-  title: '小康 Links',
-  name: '小康',
+  title: 'Links',
+  name: 'Hong',
   keywords: [
     'tszhong0411',
     'tszhong0411 social media',
     'tszhong0411 links',
     'links',
   ],
-  titleTemplate: '- 小康 Links',
+  titleTemplate: '- Links',
   description:
-    'Connect with me on all my social media profiles through 小康 Links. Discover new content and stay updated with my latest posts!',
+    'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!',
   favicons: [
     {
       rel: 'icon',
@@ -68,7 +68,7 @@ export const site: Site = {
   links: [
     {
       icon: <FiBook color='#ff0000' />,
-      title: '小康 Blog',
+      title: 'Blog',
       url: 'https://honghong.me',
       color: '#ff0000',
     },
@@ -104,7 +104,7 @@ export const site: Site = {
     },
     {
       icon: <SiDiscord color='#5662f6' />,
-      title: '小康#4229',
+      title: 'Hong#5872',
       url: 'https://discord.com',
       color: '#5662f6',
     },
