@@ -6,7 +6,6 @@ import {
   SiFacebook,
   SiGithub,
   SiInstagram,
-  SiKeybase,
   SiReddit,
   SiStackoverflow,
   SiSteam,
@@ -43,9 +42,9 @@ export const site: Site = {
   title: 'Links',
   name: 'Hong',
   keywords: [
-    'tszhong0411',
-    'tszhong0411 social media',
-    'tszhong0411 links',
+    'codewithhong',
+    'codewithhong social media',
+    'codewithhong links',
     'links',
   ],
   titleTemplate: '- Links',
@@ -75,13 +74,13 @@ export const site: Site = {
     {
       icon: <SiYoutube color='#ef4444' />,
       title: 'YouTube',
-      url: 'https://www.youtube.com/channel/UC2hMWOaOlk9vrkvFVaGmn0Q',
+      url: 'https://www.youtube.com/@codewithhong',
       color: '#ef4444',
     },
     {
       icon: <SiFacebook color='#1299f5' />,
       title: 'Facebook',
-      url: 'https://www.facebook.com/tszhonglai.0411/',
+      url: 'https://www.facebook.com/codewithhong/',
       color: '#1299f5',
     },
     {
@@ -93,13 +92,13 @@ export const site: Site = {
     {
       icon: <SiInstagram color='#f80067' />,
       title: 'Instagram',
-      url: 'https://instagram.com/tszhong0411/',
+      url: 'https://instagram.com/codewithhong/',
       color: '#f80067',
     },
     {
       icon: <SiGithub color='#f1f1f1' />,
       title: 'Github',
-      url: 'https://github.com/TszHong0411',
+      url: 'https://github.com/codewithhong',
       color: '#f1f1f1',
     },
     {
@@ -111,7 +110,7 @@ export const site: Site = {
     {
       icon: <SiTwitter color='#1da1f2' />,
       title: 'Twitter',
-      url: 'https://twitter.com/TszhongLai0411',
+      url: 'https://twitter.com/codewithhong',
       color: '#1da1f2',
     },
     {
@@ -123,32 +122,26 @@ export const site: Site = {
     {
       icon: <SiTwitch color='#a970ff' />,
       title: 'Twitch',
-      url: 'https://www.twitch.tv/tszhong0411',
+      url: 'https://www.twitch.tv/codewithhong',
       color: '#a970ff',
     },
     {
       icon: <SiReddit color='#ff4500' />,
       title: 'Reddit',
-      url: 'https://www.reddit.com/user/TszHong',
+      url: 'https://www.reddit.com/user/codewithhong',
       color: '#ff4500',
     },
     {
       icon: <SiDevdotto color='#fff' />,
       title: 'Dev.to',
-      url: 'https://dev.to/tszhong0411',
+      url: 'https://dev.to/codewithhong',
       color: '#fff',
     },
     {
       icon: <DailyDotDev />,
       title: 'Daily.dev',
-      url: 'https://app.daily.dev/tszhong0411',
+      url: 'https://app.daily.dev/codewithhong',
       color: '#fff',
-    },
-    {
-      icon: <SiKeybase color='#ff6f21' />,
-      title: 'Keybase',
-      url: 'https://keybase.io/tszhong0411',
-      color: '#ff6f21',
     },
   ],
 }
