@@ -6,10 +6,8 @@ import {
   SiFacebook,
   SiGithub,
   SiInstagram,
-  SiReddit,
   SiStackoverflow,
   SiSteam,
-  SiTwitch,
   SiTwitter,
   SiYoutube,
 } from 'react-icons/si'
@@ -42,9 +40,9 @@ export const site: Site = {
   title: 'Links',
   name: 'Hong',
   keywords: [
-    'codewithhong',
-    'codewithhong social media',
-    'codewithhong links',
+    'tszhong0411',
+    'tszhong0411 social media',
+    'tszhong0411 links',
     'links',
   ],
   titleTemplate: '- Links',
@@ -74,13 +72,13 @@ export const site: Site = {
     {
       icon: <SiYoutube color='#ef4444' />,
       title: 'YouTube',
-      url: 'https://www.youtube.com/@codewithhong',
+      url: 'https://www.youtube.com/@tszhong0411',
       color: '#ef4444',
     },
     {
       icon: <SiFacebook color='#1299f5' />,
       title: 'Facebook',
-      url: 'https://www.facebook.com/codewithhong/',
+      url: 'https://www.facebook.com/tszhong0411/',
       color: '#1299f5',
     },
     {
@@ -92,13 +90,13 @@ export const site: Site = {
     {
       icon: <SiInstagram color='#f80067' />,
       title: 'Instagram',
-      url: 'https://instagram.com/codewithhong/',
+      url: 'https://instagram.com/tszhong0411/',
       color: '#f80067',
     },
     {
       icon: <SiGithub color='#f1f1f1' />,
       title: 'Github',
-      url: 'https://github.com/codewithhong',
+      url: 'https://github.com/tszhong0411',
       color: '#f1f1f1',
     },
     {
@@ -110,7 +108,7 @@ export const site: Site = {
     {
       icon: <SiTwitter color='#1da1f2' />,
       title: 'Twitter',
-      url: 'https://twitter.com/codewithhong',
+      url: 'https://twitter.com/tszhong0411',
       color: '#1da1f2',
     },
     {
@@ -120,27 +118,15 @@ export const site: Site = {
       color: '#e87921',
     },
     {
-      icon: <SiTwitch color='#a970ff' />,
-      title: 'Twitch',
-      url: 'https://www.twitch.tv/codewithhong',
-      color: '#a970ff',
-    },
-    {
-      icon: <SiReddit color='#ff4500' />,
-      title: 'Reddit',
-      url: 'https://www.reddit.com/user/codewithhong',
-      color: '#ff4500',
-    },
-    {
       icon: <SiDevdotto color='#fff' />,
       title: 'Dev.to',
-      url: 'https://dev.to/codewithhong',
+      url: 'https://dev.to/tszhong0411',
       color: '#fff',
     },
     {
       icon: <DailyDotDev />,
       title: 'Daily.dev',
-      url: 'https://app.daily.dev/codewithhong',
+      url: 'https://app.daily.dev/tszhong0411',
       color: '#fff',
     },
   ],
