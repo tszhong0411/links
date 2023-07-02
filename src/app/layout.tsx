@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react'
 import clsx from 'clsx'
 import type { Metadata } from 'next'
 import { Noto_Sans_TC, Sora } from 'next/font/google'
@@ -91,7 +90,6 @@ const RootLayout = (props: RootLayoutProps) => {
           <main className='relative mx-auto max-w-lg px-4'>{children}</main>
         </div>
         <Footer />
-        <Analytics />
       </body>
     </html>
   )
