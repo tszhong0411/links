@@ -12,8 +12,6 @@ import {
   SiYoutube,
 } from 'react-icons/si'
 
-import { DailyDotDev } from '@/components/Icon'
-
 type Site = {
   url: string
   logo: string
@@ -36,7 +34,7 @@ export const site: Site = {
     process.env.NODE_ENV === 'production'
       ? 'https://honghong.me'
       : 'http://localhost:3000',
-  logo: 'https://honghong.me/static/images/avatar.png',
+  logo: 'https://honghong.me/images/avatar.png',
   title: 'Links',
   name: 'Hong',
   keywords: [
@@ -53,13 +51,13 @@ export const site: Site = {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/static/favicon/favicon-16x16.png',
+      url: '/favicon/favicon-16x16.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/static/favicon/favicon-32x32.png',
+      url: '/favicon/favicon-32x32.png',
     },
   ],
   links: [
@@ -101,7 +99,7 @@ export const site: Site = {
     },
     {
       icon: <SiDiscord color='#5662f6' />,
-      title: 'Hong#5872',
+      title: 'tszhong0411',
       url: 'https://discord.com',
       color: '#5662f6',
     },
@@ -121,12 +119,6 @@ export const site: Site = {
       icon: <SiDevdotto color='#fff' />,
       title: 'Dev.to',
       url: 'https://dev.to/tszhong0411',
-      color: '#fff',
-    },
-    {
-      icon: <DailyDotDev />,
-      title: 'Daily.dev',
-      url: 'https://app.daily.dev/tszhong0411',
       color: '#fff',
     },
   ],

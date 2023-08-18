@@ -1,17 +1,17 @@
-import clsx from 'clsx'
 import type { Metadata } from 'next'
-import { Noto_Sans_TC, Sora } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
 
-import Footer from '@/components/Layout/Footer'
+import Footer from '@/components/footer'
 
 import { site } from '@/config/site'
 
-import { WithChildren } from '@/types'
-
-type RootLayoutProps = WithChildren
+type RootLayoutProps = {
+  children: React.ReactNode
+}
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: {
     default: site.title,
     template: `%s ${site.titleTemplate}`,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  manifest: '/static/favicon/site.webmanifest',
+  manifest: '/favicon/site.webmanifest',
   twitter: {
     title: site.name,
     card: 'summary_large_image',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     locale: 'en-US',
     images: [
       {
-        url: 'https://honghong.me/static/images/projects/links/cover.png',
+        url: 'https://honghong.me/images/projects/links/cover.png',
         width: 1200,
         height: 630,
         alt: site.description,
@@ -56,11 +56,11 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: '/static/favicon/favicon.svg',
-    shortcut: '/static/favicon/favicon.svg',
+    icon: '/favicon/favicon.svg',
+    shortcut: '/favicon/favicon.svg',
     apple: [
       {
-        url: '/static/favicon/apple-touch-icon.png',
+        url: '/favicon/apple-touch-icon.png',
         sizes: '180x180',
         type: 'image/png',
       },
@@ -69,14 +69,8 @@ export const metadata: Metadata = {
   },
 }
 
-const sora = Sora({
-  variable: '--font-sora',
-  subsets: ['latin'],
-})
-
-const notoSansTC = Noto_Sans_TC({
-  variable: '--font-noto-sans-tc',
-  weight: ['400', '500', '700', '900'],
+const inter = Inter({
+  variable: '--font-inter',
   subsets: ['latin'],
 })
 
@@ -84,7 +78,7 @@ const RootLayout = (props: RootLayoutProps) => {
   const { children } = props
 
   return (
-    <html lang='en-US' className={clsx(notoSansTC.variable, sora.variable)}>
+    <html lang='en-US' className={inter.variable}>
       <body className='bg-[#010101] font-default text-white'>
         <div className='relative min-h-screen overflow-x-hidden'>
           <main className='relative mx-auto max-w-lg px-4'>{children}</main>
