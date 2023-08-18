@@ -19,10 +19,8 @@
 - Framework: [Next.js](https://nextjs.org/)
 - Deployment: [Vercel](https://vercel.com)
 - Favicon: [realfavicongenerator](https://realfavicongenerator.net/)
-- Analytics: [Vercel](https://vercel.com/)
 - Styling: [Tailwindcss](https://tailwindcss.com)
 - Icons: [react-icons](https://react-icons.github.io/react-icons/)
-- Animation: [Framer Motion](https://www.framer.com/motion/)
 
 ## 👋 Running Locally
 
@@ -41,13 +39,13 @@ cd links
 3. Install dependencies
 
 ```sh
-yarn
+pnpm
 ```
 
 4. Run the development server
 
 ```sh
-yarn dev
+pnpm dev
 ```
 
 <hr>
