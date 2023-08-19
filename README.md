@@ -1,20 +1,8 @@
-<h1 align="center">
- Links
-</h1>
-
 <p align="center">
-  <img src="https://socialify.git.ci/tszhong0411/links/image?forks=1&issues=1&logo=https://honghong.me/images/projects/links/logo.png&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark">
+  <img src="https://honghong.me/images/projects/links/cover.png">
 </p>
 
-<p align="center">
-    <a href="https://links.honghong.me" target="blank">View Online</a>
-    ·
-    <a href="https://github.com/tszhong0411/links/issues/new">Report Bug</a>
-    ·
-    <a href="https://github.com/tszhong0411/links/issues/new">Request New Feature</a>
-</p>
-
-## 🌍 links.honghong.me
+## ⚡️ Tech Stack
 
 - Framework: [Next.js](https://nextjs.org/)
 - Deployment: [Vercel](https://vercel.com)
