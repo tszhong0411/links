@@ -4,35 +4,39 @@
 
 ## ⚡️ Tech Stack
 
-- Framework: [Next.js](https://nextjs.org/)
-- Deployment: [Vercel](https://vercel.com)
-- Favicon: [realfavicongenerator](https://realfavicongenerator.net/)
-- Styling: [Tailwindcss](https://tailwindcss.com)
-- Icons: [react-icons](https://react-icons.github.io/react-icons/)
+| Name       | Link                                                      |
+| ---------- | --------------------------------------------------------- |
+| Framework  | [Next.js](https://nextjs.org/)                            |
+| Deployment | [Vercel](https://vercel.com)                              |
+| Favicon    | [realfavicongenerator](https://realfavicongenerator.net/) |
+| Styling    | [Tailwindcss](https://tailwindcss.com)                    |
+| Icons      | [react-icons](https://react-icons.github.io/react-icons/) |
 
-## 👋 Running Locally
+## 👋 Getting Started
+
+Follow these steps to run the project locally on your machine:
 
 1. Clone the repository
 
-```sh
+```bash
 git clone https://github.com/tszhong0411/links.git
 ```
 
-2. Go to the project directory
+2. Navigate to the project directory
 
-```sh
+```bash
 cd links
 ```
 
 3. Install dependencies
 
-```sh
+```bash
 pnpm
 ```
 
 4. Run the development server
 
-```sh
+```bash
 pnpm dev
 ```
 
