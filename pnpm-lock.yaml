@@ -14,9 +14,6 @@ dependencies:
   '@tszhong0411/tsconfig':
     specifier: ^1.0.1
     version: 1.0.1(typescript@5.1.6)
-  '@tszhong0411/utils':
-    specifier: ^3.0.1
-    version: 3.0.1(typescript@5.1.6)
   next:
     specifier: 13.4.18
     version: 13.4.18(react-dom@18.2.0)(react@18.2.0)
@@ -580,16 +577,6 @@ packages:
       typescript: 5.1.6
     dev: false
 
-  /@tszhong0411/utils@3.0.1(typescript@5.1.6):
-    resolution: {integrity: sha512-JvoMaKgC6QV98oUhdkBIn8CTJXeDErczUsIXhNg0F+uS9lx+vvFCCUkxB5uexoXEbZiONIhKQniMZpt/+31tgA==}
-    dependencies:
-      class-variance-authority: 0.5.3(typescript@5.1.6)
-      clsx: 1.2.1
-      tailwind-merge: 1.14.0
-    transitivePeerDependencies:
-      - typescript
-    dev: false
-
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: false
@@ -1110,17 +1097,6 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /class-variance-authority@0.5.3(typescript@5.1.6):
-    resolution: {integrity: sha512-vcMxnya/xxQSvTuXO9FWAOnmLihbzX82fPkQpMUwPHZ4tdopmFlM4X818fMgCPt2L6CirOIbN91vybifdScUVw==}
-    peerDependencies:
-      typescript: '>= 4.5.5 < 6'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      typescript: 5.1.6
-    dev: false
-
   /cli-cursor@4.0.0:
     resolution: {integrity: sha512-VGtlMu3x/4DOtIUwEkRezxUZ2lBacNJCHash0N0WeZDBS+7Ux1dm3XWAgWYxLJFMMdOeXMHXorshEFhbMSGelg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -1148,11 +1124,6 @@ packages:
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
-
-  /clsx@1.2.1:
-    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
-    engines: {node: '>=6'}
-    dev: false
 
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
@@ -3638,10 +3609,6 @@ packages:
     dependencies:
       '@pkgr/utils': 2.4.2
       tslib: 2.6.1
-    dev: false
-
-  /tailwind-merge@1.14.0:
-    resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
     dev: false
 
   /tailwindcss@3.3.3(ts-node@10.9.1):
