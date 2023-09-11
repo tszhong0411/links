@@ -2,13 +2,12 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 
 import Gradient from '@/components/gradient'
-
 import { site } from '@/config/site'
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: site.url,
-  },
+    canonical: site.url
+  }
 }
 
 const HomePage = () => {
@@ -34,13 +33,13 @@ const HomePage = () => {
 
           return (
             <a
-              key={link.url}
+              key={url}
               href={url}
               className='relative flex h-14 w-full items-center justify-center rounded-xl border-2 bg-[rgba(18,18,18,0.5)] px-8 py-4 transition-transform duration-200 hover:scale-105'
               target='_blank'
               rel='noopener, noreferrer'
               style={{
-                borderColor: color,
+                borderColor: color
               }}
             >
               <div className='absolute left-8'>{icon}</div>

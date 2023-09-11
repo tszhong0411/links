@@ -16,15 +16,13 @@
     "strictNullChecks": true
   },
   "exclude": ["node_modules"],
-  "extends": "@tszhong0411/tsconfig",
+  "extends": "@tszhong0411/tsconfig/web.json",
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/*.js",
-    "**/*.js",
     "**/*.cjs",
-    "next.config.js",
     ".next/types/**/*.ts"
   ]
 }

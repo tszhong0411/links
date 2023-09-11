@@ -1,58 +1,49 @@
 {
-  "name": "links",
   "private": true,
+  "name": "links",
   "version": "0.0.0",
-  "license": "MIT",
-  "type": "module",
   "description": "tszhong0411's social media link",
+  "license": "MIT",
   "author": "Lai Tsz Hong <info@honghong.me> (https://github.com/tszhong0411/)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tszhong0411/links.git"
   },
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
+    "format": "prettier -w .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "format": "prettier -w .",
-    "type-check": "tsc --noEmit",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
   },
-  "prettier": "@tszhong0411/prettier-config",
   "dependencies": {
-    "@tszhong0411/eslint-config": "^1.0.15",
-    "@tszhong0411/prettier-config": "^1.0.5",
-    "@tszhong0411/tsconfig": "^1.0.1",
-    "next": "13.4.18",
+    "@tszhong0411/eslint-config": "^1.0.23",
+    "@tszhong0411/prettier-config": "^1.0.7",
+    "@tszhong0411/tsconfig": "^1.0.3",
+    "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1"
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
-    "@types/node": "20.5.0",
-    "@types/react": "18.2.20",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "^10.4.15",
-    "eslint": "8.47.0",
-    "eslint-config-next": "13.4.18",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.0",
-    "postcss": "^8.4.28",
-    "prettier": "^3.0.2",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
     "tailwindcss": "^3.3.3",
-    "typescript": "5.1.6"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint"
-    ],
-    "*.{json,css,scss,md,mdx,js,jsx,ts,tsx,cjs,mjs}": [
-      "prettier -c"
-    ]
+    "typescript": "5.2.2"
   },
   "eslintConfig": {
     "extends": [
@@ -63,5 +54,14 @@
       "project": "./tsconfig.json",
       "ecmaVersion": "latest"
     }
-  }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ],
+    "*.{json,css,scss,md,mdx,js,jsx,ts,tsx,cjs,mjs}": [
+      "prettier -c"
+    ]
+  },
+  "prettier": "@tszhong0411/prettier-config"
 }
