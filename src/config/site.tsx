@@ -1,4 +1,4 @@
-import { IconDescriptor } from 'next/dist/lib/metadata/types/metadata-types'
+import { type IconDescriptor } from 'next/dist/lib/metadata/types/metadata-types'
 import { FiBook } from 'react-icons/fi'
 import {
   SiDevdotto,
