@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Spotlight from '@/components/spotlight'
 import { site } from '@/config/site'
 
-import grid from './grid.svg'
 import PrimaryLinks from './primary-links'
 
 export const metadata: Metadata = {
@@ -16,14 +15,8 @@ export const metadata: Metadata = {
 const HomePage = () => {
   return (
     <>
-      <div
-        className='relative mx-auto flex flex-col items-center justify-center gap-4 pb-10 pt-24'
-        style={{
-          backgroundImage: `url(${grid.src})`
-        }}
-      >
-        <div className='pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_40%,black)] dark:bg-black' />
-        <Spotlight className='-top-20 left-48' />
+      <div className='relative mx-auto flex flex-col items-center justify-center gap-4 pb-10 pt-24'>
+        <Spotlight className='-top-4 left-56' />
         <Image
           src='https://honghong.me/images/avatar.png'
           width={90}

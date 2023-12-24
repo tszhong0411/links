@@ -5,6 +5,8 @@ import '@/styles/globals.css'
 import Footer from '@/components/footer'
 import { site } from '@/config/site'
 
+import grid from './grid.svg'
+
 type RootLayoutProps = {
   children: React.ReactNode
 }
@@ -78,7 +80,20 @@ const RootLayout = (props: RootLayoutProps) => {
 
   return (
     <html lang='en-US' className={inter.variable}>
-      <body className='bg-black font-default text-white'>
+      <body className='relative bg-black font-default text-white'>
+        <div
+          className='absolute inset-0 -z-20 max-h-[80vh]'
+          style={{
+            backgroundImage: `url(${grid.src})`
+          }}
+        />
+        <div
+          className='absolute inset-0 -z-10 max-h-[80vh]'
+          style={{
+            backgroundImage:
+              'linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%)'
+          }}
+        />
         <div className='relative min-h-screen overflow-x-hidden'>
           <main className='relative mx-auto max-w-lg px-4'>{children}</main>
         </div>
