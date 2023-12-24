@@ -26,7 +26,7 @@ const HomePage = () => {
           priority
         />
         <h1 className='text-xl font-semibold'>Hong</h1>
-        <p className='text-[#a1a1a1]'>Full-stack web developer</p>
+        <p className='text-[#a1a1a1]'>Full-stack Web Developer</p>
       </div>
       <PrimaryLinks />
       <div className='flex flex-col gap-4 py-3'>
