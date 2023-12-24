@@ -92,8 +92,8 @@ export const site: Site = {
     },
     {
       icon: <SiDiscord className='text-zinc-300' />,
-      title: 'tszhong0411',
-      url: 'https://discord.com'
+      title: 'Discord',
+      url: 'https://discordapp.com/users/886269624608522240'
     },
     {
       icon: <SiTwitter className='text-zinc-300' />,
