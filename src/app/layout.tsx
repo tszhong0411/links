@@ -5,6 +5,7 @@ import '@/styles/globals.css'
 import Footer from '@/components/footer'
 import { site } from '@/config/site'
 
+import Analytics from './analytics'
 import grid from './grid.svg'
 
 type RootLayoutProps = {
@@ -98,6 +99,7 @@ const RootLayout = (props: RootLayoutProps) => {
           <main className='relative mx-auto max-w-lg px-4'>{children}</main>
         </div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
