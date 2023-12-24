@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <>
       <div
-        className='relative mx-auto flex h-80 flex-col items-center justify-center gap-4'
+        className='relative mx-auto flex flex-col items-center justify-center gap-4 pb-10 pt-24'
         style={{
           backgroundImage: `url(${grid.src})`
         }}
@@ -33,7 +33,7 @@ const HomePage = () => {
           priority
         />
         <h1 className='text-xl font-semibold'>Hong</h1>
-        <p className='text-[#a1a1a1]'>A student who loves web development</p>
+        <p className='text-[#a1a1a1]'>Full-stack web developer</p>
       </div>
       <PrimaryLinks />
       <div className='flex flex-col gap-4 py-3'>
@@ -44,7 +44,7 @@ const HomePage = () => {
             <a
               key={url}
               href={url}
-              className='relative flex h-14 w-full items-center justify-center rounded-xl border border-zinc-700 bg-[#151414] px-8 py-4'
+              className='relative flex h-14 w-full items-center justify-center rounded-xl border border-zinc-700 bg-[#151414] px-8 py-4 transition-colors duration-300 hover:border-zinc-500'
               target='_blank'
               rel='noopener, noreferrer'
             >
