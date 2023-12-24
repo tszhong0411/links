@@ -25,7 +25,6 @@ type Site = {
     icon: React.ReactNode
     title: string
     url: string
-    color: string
   }>
 }
 
@@ -62,64 +61,54 @@ export const site: Site = {
   ],
   links: [
     {
-      icon: <FiBook color='#ff0000' />,
+      icon: <FiBook className='text-zinc-300' />,
       title: 'Blog',
-      url: 'https://honghong.me',
-      color: '#ff0000'
+      url: 'https://honghong.me/blog'
     },
     {
-      icon: <SiYoutube color='#ef4444' />,
+      icon: <SiYoutube className='text-zinc-300' />,
       title: 'YouTube',
-      url: 'https://www.youtube.com/@tszhong0411',
-      color: '#ef4444'
+      url: 'https://www.youtube.com/@tszhong0411'
     },
     {
-      icon: <SiFacebook color='#1299f5' />,
+      icon: <SiFacebook className='text-zinc-300' />,
       title: 'Facebook',
-      url: 'https://www.facebook.com/tszhong0411/',
-      color: '#1299f5'
+      url: 'https://www.facebook.com/tszhong0411/'
     },
     {
-      icon: <SiSteam color='#c4c2bf' />,
+      icon: <SiSteam className='text-zinc-300' />,
       title: 'Steam',
-      url: 'https://steamcommunity.com/profiles/76561199157324617/',
-      color: '#c4c2bf'
+      url: 'https://steamcommunity.com/profiles/76561199157324617/'
     },
     {
-      icon: <SiInstagram color='#f80067' />,
+      icon: <SiInstagram className='text-zinc-300' />,
       title: 'Instagram',
-      url: 'https://instagram.com/tszhong0411/',
-      color: '#f80067'
+      url: 'https://instagram.com/tszhong0411/'
     },
     {
-      icon: <SiGithub color='#f1f1f1' />,
+      icon: <SiGithub className='text-zinc-300' />,
       title: 'Github',
-      url: 'https://github.com/tszhong0411',
-      color: '#f1f1f1'
+      url: 'https://github.com/tszhong0411'
     },
     {
-      icon: <SiDiscord color='#5662f6' />,
+      icon: <SiDiscord className='text-zinc-300' />,
       title: 'tszhong0411',
-      url: 'https://discord.com',
-      color: '#5662f6'
+      url: 'https://discord.com'
     },
     {
-      icon: <SiTwitter color='#1da1f2' />,
+      icon: <SiTwitter className='text-zinc-300' />,
       title: 'Twitter',
-      url: 'https://twitter.com/tszhong0411',
-      color: '#1da1f2'
+      url: 'https://twitter.com/tszhong0411'
     },
     {
-      icon: <SiStackoverflow color='#e87921' />,
+      icon: <SiStackoverflow className='text-zinc-300' />,
       title: 'Stack overflow',
-      url: 'https://stackoverflow.com/users/15166428',
-      color: '#e87921'
+      url: 'https://stackoverflow.com/users/15166428'
     },
     {
-      icon: <SiDevdotto color='#fff' />,
+      icon: <SiDevdotto className='text-zinc-300' />,
       title: 'Dev.to',
-      url: 'https://dev.to/tszhong0411',
-      color: '#fff'
+      url: 'https://dev.to/tszhong0411'
     }
   ]
 }
