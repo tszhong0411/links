@@ -31,7 +31,7 @@ type Site = {
 export const site: Site = {
   url:
     process.env.NODE_ENV === 'production'
-      ? 'https://honghong.me'
+      ? 'https://links.honghong.me'
       : 'http://localhost:3000',
   logo: 'https://honghong.me/images/avatar.png',
   title: 'Links',

@@ -1,9 +1,3 @@
-## Repository Archived
-
-This repository has been archived. The source code has been migrated to [https://github.com/tszhong0411/honghong.me](https://github.com/tszhong0411/honghong.me) in the directory `apps/links`. Please refer to the new repository for the latest updates.
-
----
-
 <p align="center">
   <img src="https://honghong.me/images/projects/links/cover.png">
 </p>
