@@ -8,7 +8,6 @@
 | ---------- | --------------------------------------------------------- |
 | Framework  | [Next.js](https://nextjs.org/)                            |
 | Deployment | [Vercel](https://vercel.com)                              |
-| Favicon    | [realfavicongenerator](https://realfavicongenerator.net/) |
 | Styling    | [Tailwindcss](https://tailwindcss.com)                    |
 | Icons      | [react-icons](https://react-icons.github.io/react-icons/) |
 
@@ -31,13 +30,13 @@ cd links
 3. Install dependencies
 
 ```bash
-yarn install
+pnpm install
 ```
 
 4. Run the development server
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 <hr>

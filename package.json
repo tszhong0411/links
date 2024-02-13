@@ -2,7 +2,7 @@
   "private": true,
   "name": "links",
   "version": "0.0.0",
-  "description": "tszhong0411's social media link",
+  "description": "tszhong0411's social media links",
   "license": "MIT",
   "author": "tszhong0411 <me@honghong.me> (https://github.com/tszhong0411/)",
   "repository": {
@@ -12,50 +12,44 @@
   "type": "module",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "format": "prettier -w .",
-    "lint": "eslint .",
+    "check-updates": "pnpm dlx npm-check-updates --interactive --format group",
+    "clean": "rm -rf .next",
+    "dev": "next dev --turbo",
+    "format:check": "prettier -c .",
+    "format:write": "prettier -w .",
+    "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
     "start": "next start",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@tszhong0411/eslint-config": "^1.0.23",
-    "@tszhong0411/prettier-config": "^1.0.7",
-    "@tszhong0411/tsconfig": "^1.0.3",
-    "clsx": "^2.0.0",
-    "next": "13.4.19",
+    "clsx": "^2.1.0",
+    "geist": "^1.2.2",
+    "next": "14.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.11.0",
-    "tailwind-merge": "^2.2.0"
+    "react-icons": "^5.0.1",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@types/node": "20.6.0",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "^10.4.15",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "postcss": "^8.4.29",
-    "prettier": "^3.0.3",
-    "tailwindcss": "^3.3.3",
-    "typescript": "5.2.2"
-  },
-  "eslintConfig": {
-    "extends": [
-      "next/core-web-vitals",
-      "@tszhong0411/eslint-config"
-    ],
-    "parserOptions": {
-      "project": "./tsconfig.json",
-      "ecmaVersion": "latest"
-    }
+    "@commitlint/cli": "18.6.0",
+    "@commitlint/config-conventional": "18.6.0",
+    "@tszhong0411/eslint-config": "^0.0.5",
+    "@tszhong0411/prettier-config": "^0.0.1",
+    "@tszhong0411/tsconfig": "^0.0.1",
+    "@types/node": "20.11.17",
+    "@types/react": "18.2.55",
+    "@types/react-dom": "18.2.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.2",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.3.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

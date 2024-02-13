@@ -1,9 +1,8 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { GeistSans } from 'geist/font/sans'
+import type { Metadata, Viewport } from 'next'
 
 import '@/styles/globals.css'
 import Footer from '@/components/footer'
-import { site } from '@/config/site'
 
 import Analytics from './analytics'
 import grid from './grid.svg'
@@ -12,13 +11,18 @@ type RootLayoutProps = {
   children: React.ReactNode
 }
 
+const SITE_URL =
+  process.env.NODE_ENV === 'production'
+    ? 'https://links.honghong.me'
+    : 'http://localhost:3000'
+const SITE_DESCRIPTION =
+  'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
+const SITE_TITLE = 'Links'
+
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
-  title: {
-    default: site.title,
-    template: `%s ${site.titleTemplate}`
-  },
-  description: site.description,
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
   robots: {
     index: true,
     follow: true,
@@ -32,34 +36,49 @@ export const metadata: Metadata = {
   },
   manifest: '/favicon/site.webmanifest',
   twitter: {
-    title: site.name,
+    title: 'Hong',
     card: 'summary_large_image',
     site: '@tszhong0411',
-    creator: '@tszhong0411'
+    creator: '@tszhong0411',
+    images: [
+      {
+        url: 'https://honghong.me/images/projects/links/cover.png',
+        width: 1280,
+        height: 832,
+        alt: SITE_DESCRIPTION
+      }
+    ]
   },
-  keywords: site.keywords,
-  themeColor: '#000',
+  alternates: {
+    canonical: SITE_URL
+  },
+  keywords: [
+    'tszhong0411',
+    'tszhong0411 social media',
+    'tszhong0411 links',
+    'links'
+  ],
   creator: 'tszhong0411',
   openGraph: {
-    url: `${site.url}`,
+    url: SITE_URL,
     type: 'website',
-    title: site.title,
-    siteName: site.title,
-    description: site.description,
+    title: SITE_TITLE,
+    siteName: SITE_TITLE,
+    description: SITE_DESCRIPTION,
     locale: 'en-US',
     images: [
       {
         url: 'https://honghong.me/images/projects/links/cover.png',
         width: 1200,
         height: 832,
-        alt: site.description,
+        alt: SITE_DESCRIPTION,
         type: 'image/png'
       }
     ]
   },
   icons: {
-    icon: '/favicon/favicon.svg',
-    shortcut: '/favicon/favicon.svg',
+    icon: '/favicon/favicon.ico',
+    shortcut: '/favicon/favicon.ico',
     apple: [
       {
         url: '/favicon/apple-touch-icon.png',
@@ -67,21 +86,35 @@ export const metadata: Metadata = {
         type: 'image/png'
       }
     ],
-    other: [...site.favicons]
+    other: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        url: '/favicon/favicon-16x16.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        url: '/favicon/favicon-32x32.png'
+      }
+    ]
   }
 }
 
-const inter = Inter({
-  variable: '--font-inter',
-  subsets: ['latin']
-})
+export const viewport: Viewport = {
+  themeColor: {
+    color: '#000000'
+  }
+}
 
 const RootLayout = (props: RootLayoutProps) => {
   const { children } = props
 
   return (
-    <html lang='en-US' className={inter.variable}>
-      <body className='relative bg-black font-default text-white'>
+    <html lang='en-US' className={GeistSans.variable}>
+      <body className='relative bg-[#020202] font-default text-white'>
         <div
           className='absolute inset-0 -z-20 max-h-[80vh]'
           style={{

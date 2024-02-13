@@ -1,16 +1,73 @@
-import type { Metadata } from 'next'
 import Image from 'next/image'
+import { FiBook } from 'react-icons/fi'
+import {
+  SiDevdotto,
+  SiDiscord,
+  SiFacebook,
+  SiGithub,
+  SiInstagram,
+  SiStackoverflow,
+  SiSteam,
+  SiTwitter,
+  SiYoutube
+} from 'react-icons/si'
 
 import Spotlight from '@/components/spotlight'
-import { site } from '@/config/site'
 
 import PrimaryLinks from './primary-links'
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical: site.url
+const links = [
+  {
+    icon: <FiBook className='text-zinc-300' />,
+    title: 'Blog',
+    url: 'https://honghong.me/blog'
+  },
+  {
+    icon: <SiYoutube className='text-zinc-300' />,
+    title: 'YouTube',
+    url: 'https://www.youtube.com/@tszhong0411'
+  },
+  {
+    icon: <SiFacebook className='text-zinc-300' />,
+    title: 'Facebook',
+    url: 'https://www.facebook.com/tszhong0411/'
+  },
+  {
+    icon: <SiSteam className='text-zinc-300' />,
+    title: 'Steam',
+    url: 'https://steamcommunity.com/profiles/76561199157324617/'
+  },
+  {
+    icon: <SiInstagram className='text-zinc-300' />,
+    title: 'Instagram',
+    url: 'https://instagram.com/tszhong0411/'
+  },
+  {
+    icon: <SiGithub className='text-zinc-300' />,
+    title: 'Github',
+    url: 'https://github.com/tszhong0411'
+  },
+  {
+    icon: <SiDiscord className='text-zinc-300' />,
+    title: 'Discord',
+    url: 'https://discordapp.com/users/886269624608522240'
+  },
+  {
+    icon: <SiTwitter className='text-zinc-300' />,
+    title: 'Twitter',
+    url: 'https://twitter.com/tszhong0411'
+  },
+  {
+    icon: <SiStackoverflow className='text-zinc-300' />,
+    title: 'Stack overflow',
+    url: 'https://stackoverflow.com/users/15166428'
+  },
+  {
+    icon: <SiDevdotto className='text-zinc-300' />,
+    title: 'Dev.to',
+    url: 'https://dev.to/tszhong0411'
   }
-}
+]
 
 const HomePage = () => {
   return (
@@ -30,7 +87,7 @@ const HomePage = () => {
       </div>
       <PrimaryLinks />
       <div className='flex flex-col gap-4 py-3'>
-        {site.links.map((link) => {
+        {links.map((link) => {
           const { icon, title, url } = link
 
           return (

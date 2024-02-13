@@ -53,20 +53,26 @@ const SparkleButton = (props: SparkleButtonProps) => {
           return (
             <Particle
               key={i}
-              style={{
-                '--x': `${RANDOM(20, 80)}`,
-                '--y': `${RANDOM(20, 80)}`,
-                '--duration': `${RANDOM(6, 20)}`,
-                '--delay': `${RANDOM(1, 10)}`,
-                '--alpha': `${RANDOM(40, 90) / 100}`,
-                '--origin-x': `${
-                  Math.random() > 0.5 ? RANDOM(300, 800) * -1 : RANDOM(300, 800)
-                }%`,
-                '--origin-y': `${
-                  Math.random() > 0.5 ? RANDOM(300, 800) * -1 : RANDOM(300, 800)
-                }%`,
-                '--size': `${RANDOM(40, 90) / 100}`
-              }}
+              style={
+                {
+                  '--x': `${RANDOM(20, 80)}`,
+                  '--y': `${RANDOM(20, 80)}`,
+                  '--duration': `${RANDOM(6, 20)}`,
+                  '--delay': `${RANDOM(1, 10)}`,
+                  '--alpha': `${RANDOM(40, 90) / 100}`,
+                  '--origin-x': `${
+                    Math.random() > 0.5
+                      ? RANDOM(300, 800) * -1
+                      : RANDOM(300, 800)
+                  }%`,
+                  '--origin-y': `${
+                    Math.random() > 0.5
+                      ? RANDOM(300, 800) * -1
+                      : RANDOM(300, 800)
+                  }%`,
+                  '--size': `${RANDOM(40, 90) / 100}`
+                } as React.CSSProperties
+              }
             />
           )
         })}
@@ -94,9 +100,12 @@ const Text = (props: TextProps) => {
 }
 
 const ClassName = cn(
-  'peer relative flex scale-[calc(1+var(--active)*0.1)] items-center gap-[0.25em] whitespace-nowrap rounded-[100px] px-6 py-4 font-medium transition-[shadow_var(--transition,scale_var(--transition),background_var(--transition))] [--active:0] [--cut:0.1em] [background:--bg] before:absolute before:inset-[-0.25em] before:-z-10 before:rounded-[100px] before:border-[0.25em] before:border-solid before:border-[hsl(0_0%_20.08%/0.5)] before:opacity-[var(--active,0)] before:transition-[opacity_var(--transition)] hover:[--active:1] hover:[--play-state:running] active:scale-100',
+  'peer relative flex scale-[calc(1+var(--active)*0.1)] items-center gap-[0.25em] whitespace-nowrap rounded-[100px] px-6 py-4 font-medium transition-[shadow_var(--transition,scale_var(--transition),background_var(--transition))] [background:--bg] [--active:0] [--cut:0.1em]',
+  'before:absolute before:inset-[-0.25em] before:-z-10 before:rounded-[100px] before:border-[0.25em] before:border-solid before:border-[hsl(0_0%_20.08%/0.5)] before:opacity-[var(--active,0)] before:transition-[opacity_var(--transition)]',
   '[--bg:radial-gradient(80%_100%_at_center_120%,hsl(0_0%_20%/var(--active)),transparent),hsl(260_0%_12%)]',
-  'shadow-[0_0_calc(var(--active)*6em)_calc(var(--active)*3em)_hsl(0_0%_13.08%/75%),0_0.05em_0_0_hsl(0_0%_calc((var(--active)*20%)+30%))_inset,0_-0.05em_0_0_hsl(0_0%_calc(var(--active)*30%))_inset]'
+  'shadow-[0_0_calc(var(--active)*6em)_calc(var(--active)*3em)_hsl(0_0%_13.08%/75%),0_0.05em_0_0_hsl(0_0%_calc((var(--active)*20%)+30%))_inset,0_-0.05em_0_0_hsl(0_0%_calc(var(--active)*30%))_inset]',
+  'hover:[--active:1] hover:[--play-state:running]',
+  'active:scale-100'
 )
 
 SparkleButton.Spark = Spark

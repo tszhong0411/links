@@ -1,12 +1,11 @@
 import type { Config } from 'tailwindcss'
-import { fontFamily } from 'tailwindcss/defaultTheme'
 
-export default {
+const config: Config = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
-        default: ['var(--font-inter)', ...fontFamily.sans]
+        default: ['var(--font-inter)']
       },
       animation: {
         spotlight: 'spotlight 2s ease .75s 1 forwards',
@@ -45,4 +44,6 @@ export default {
     }
   },
   plugins: []
-} satisfies Config
+}
+
+export default config
