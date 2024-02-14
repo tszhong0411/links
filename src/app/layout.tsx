@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://honghong.me/images/projects/links/cover.png',
-        width: 1200,
+        width: 1280,
         height: 832,
         alt: SITE_DESCRIPTION,
         type: 'image/png'
