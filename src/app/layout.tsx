@@ -116,13 +116,13 @@ const RootLayout = (props: RootLayoutProps) => {
     <html lang='en-US' className={GeistSans.variable}>
       <body className='relative bg-[#020202] font-default text-white'>
         <div
-          className='absolute inset-0 -z-20 max-h-[80vh]'
+          className='absolute inset-0 -z-20 size-full'
           style={{
             backgroundImage: `url(${grid.src})`
           }}
         />
         <div
-          className='absolute inset-0 -z-10 max-h-[80vh]'
+          className='absolute inset-0 -z-10 size-full'
           style={{
             backgroundImage:
               'linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%)'
