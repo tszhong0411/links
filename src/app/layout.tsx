@@ -125,7 +125,7 @@ const RootLayout = (props: RootLayoutProps) => {
           className='absolute inset-0 -z-10 size-full'
           style={{
             backgroundImage:
-              'linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%)'
+              'linear-gradient(0deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0) 100%)'
           }}
         />
         <div className='relative min-h-screen overflow-x-hidden'>
