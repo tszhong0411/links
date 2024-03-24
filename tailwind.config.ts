@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        default: ['var(--font-inter)']
+        sans: ['var(--font-geist-sans)']
       },
       animation: {
         spotlight: 'spotlight 2s ease .75s 1 forwards',

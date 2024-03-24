@@ -114,7 +114,7 @@ const RootLayout = (props: RootLayoutProps) => {
 
   return (
     <html lang='en-US' className={GeistSans.variable}>
-      <body className='relative bg-[#020202] font-default text-white'>
+      <body className='relative bg-[#020202] font-sans text-white'>
         <div
           className='absolute inset-0 -z-20 size-full'
           style={{
