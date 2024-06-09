@@ -1,0 +1,12 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "ignoreBinaries": [
+    "only-allow"
+  ],
+  "commitlint": {
+    "config": "commitlint.config.mjs"
+  },
+  "postcss": {
+    "config": "postcss.config.mjs"
+  }
+}

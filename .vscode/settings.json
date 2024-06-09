@@ -1,16 +1,38 @@
 {
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
+  "cSpell.diagnosticLevel": "Warning",
+  "cSpell.enabled": true,
+  "cSpell.showAutocompleteSuggestions": true,
+
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
 
   "eslint.workingDirectories": [
     {
       "mode": "auto"
     }
   ],
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.runtime": "node",
+
+  "files.associations": {
+    ".env*": "properties",
+    "*.css": "tailwindcss"
+  },
 
   "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    "className\\: '([^']*)'"
-  ]
+    ["cva\\(([^)]*)\\)", "'([^']*)'"],
+    ["cn\\(([^)]*)\\)", "'([^']*)'"],
+    "className\\: '([^']*)'",
+    ["classNames\\: {([^}]*)", "'([^']*)'"]
+  ],
+
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "prettier.enable": false
 }

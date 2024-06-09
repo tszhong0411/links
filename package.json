@@ -1,32 +1,35 @@
 {
-  "private": true,
   "name": "links",
+  "type": "module",
   "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.2.0+sha256.94fab213df221c55b6956b14a2264c21c6203cca9f0b3b95ff2fe9b84b120390",
   "description": "tszhong0411's social media links",
-  "license": "MIT",
   "author": "tszhong0411 <me@honghong.me> (https://github.com/tszhong0411/)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tszhong0411/links.git"
   },
-  "type": "module",
   "scripts": {
     "build": "next build",
-    "check-updates": "pnpm dlx npm-check-updates --interactive --format group",
+    "check:npm": "pnpm dlx npm-check-updates --deep --interactive --format group",
     "clean": "rm -rf .next",
     "dev": "next dev --turbo",
-    "format:check": "prettier -c .",
-    "format:write": "prettier -w .",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
     "start": "next start",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "preinstall": "npx only-allow pnpm",
+    "check": "pnpm lint && pnpm type-check && pnpm check:spelling && pnpm check:knip",
+    "check:knip": "knip",
+    "check:spelling": "cspell \"**\" --show-context --show-suggestions"
   },
   "dependencies": {
     "clsx": "^2.1.0",
     "geist": "^1.2.2",
-    "next": "14.1.0",
+    "next": "14.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^5.0.1",
@@ -35,29 +38,29 @@
   "devDependencies": {
     "@commitlint/cli": "18.6.0",
     "@commitlint/config-conventional": "18.6.0",
-    "@tszhong0411/eslint-config": "^0.0.5",
-    "@tszhong0411/prettier-config": "^0.0.1",
+    "@cspell/dict-companies": "^3.1.2",
+    "@cspell/dict-fullstack": "^3.1.8",
+    "@cspell/dict-markdown": "^2.0.2",
+    "@cspell/dict-node": "^5.0.1",
+    "@cspell/dict-npm": "^5.0.16",
+    "@cspell/dict-software-terms": "^3.4.3",
+    "@cspell/dict-typescript": "^3.1.5",
+    "@tszhong0411/eslint-config": "^0.1.0",
     "@tszhong0411/tsconfig": "^0.0.1",
     "@types/node": "20.11.17",
     "@types/react": "18.2.55",
     "@types/react-dom": "18.2.19",
     "autoprefixer": "^10.4.17",
-    "eslint": "8.56.0",
-    "eslint-config-next": "14.1.0",
+    "cspell": "^8.8.4",
+    "eslint": "8.57.0",
     "husky": "^9.0.10",
+    "knip": "^5.18.2",
     "lint-staged": "^15.2.2",
     "postcss": "^8.4.35",
-    "prettier": "^3.2.5",
     "tailwindcss": "^3.4.1",
     "typescript": "5.3.3"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint"
-    ],
-    "*.{json,css,scss,md,mdx,js,jsx,ts,tsx,cjs,mjs}": [
-      "prettier -c"
-    ]
-  },
-  "prettier": "@tszhong0411/prettier-config"
+    "*.{cjs,mjs,js,jsx,cts,mts,ts,tsx}": "eslint --fix"
+  }
 }

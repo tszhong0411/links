@@ -82,7 +82,7 @@ const SparkleButton = (props: SparkleButtonProps) => {
 }
 
 const Spark = () => (
-  <span className='absolute inset-0 animate-flip overflow-hidden rounded-[100px] [mask:linear-gradient(white,transparent_50%)] [rotate:0deg] before:absolute before:left-1/2 before:top-[0%] before:aspect-square before:w-[200%] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:opacity-[calc(var(--active)+0.4)] before:[transform:rotate(-90deg)] before:[transition:opacity_var(--transition)] before:[translate:-50%_-15%] after:absolute after:inset-[--cut] after:rounded-[100px]' />
+  <span className='absolute inset-0 animate-flip overflow-hidden rounded-[100px] [mask:linear-gradient(white,transparent_50%)] [rotate:0deg] before:absolute before:left-1/2 before:top-0 before:aspect-square before:w-[200%] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:opacity-[calc(var(--active)+0.4)] before:[transform:rotate(-90deg)] before:[transition:opacity_var(--transition)] before:[translate:-50%_-15%] after:absolute after:inset-[--cut] after:rounded-[100px]' />
 )
 
 const Backdrop = () => (
