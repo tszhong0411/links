@@ -61,8 +61,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0(eslint@8.57.0)(tailwindcss@3.4.1)(typescript@5.3.3)
       '@tszhong0411/tsconfig':
-        specifier: ^0.0.1
-        version: 0.0.1(typescript@5.3.3)
+        specifier: ^0.0.4
+        version: 0.0.4(typescript@5.3.3)
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -620,8 +620,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@tszhong0411/tsconfig@0.0.1':
-    resolution: {integrity: sha512-2m8pYJjGVLn2YOfra36FNQeXN9GR+cPpWY4nioygvDVXw9eMCqml1rrtWHRPKw9zWHiQzq8LCwMvI3lJOb/BtA==}
+  '@tszhong0411/tsconfig@0.0.4':
+    resolution: {integrity: sha512-A9qlcLA7P3HFms+Jptvw/DMixWNaflNVXxeBFk+yVx8Efsta6+sme+CzXNQfOuQ+c8f4RFY/RQH7kgXE4Yut4g==}
     peerDependencies:
       typescript: 5.x
 
@@ -3772,7 +3772,7 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@tszhong0411/tsconfig@0.0.1(typescript@5.3.3)':
+  '@tszhong0411/tsconfig@0.0.4(typescript@5.3.3)':
     dependencies:
       typescript: 5.3.3
 
