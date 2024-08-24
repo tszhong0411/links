@@ -24,7 +24,6 @@
     ".env*": "properties"
   },
 
-  "prettier.enable": false,
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "'([^']*)'"],
     ["cn\\(([^)]*)\\)", "'([^']*)'"],
