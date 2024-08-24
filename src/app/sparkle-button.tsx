@@ -33,12 +33,7 @@ const SparkleButton = (props: SparkleButtonProps) => {
   const { children, className } = props
 
   return (
-    <div
-      className={cn(
-        'relative inline-block [--spark:1.8s] [--transition:0.25s]',
-        className
-      )}
-    >
+    <div className={cn('relative inline-block [--spark:1.8s] [--transition:0.25s]', className)}>
       {children}
       <span
         aria-hidden='true'
@@ -59,14 +54,10 @@ const SparkleButton = (props: SparkleButtonProps) => {
                   '--delay': `${RANDOM(1, 10)}`,
                   '--alpha': `${RANDOM(40, 90) / 100}`,
                   '--origin-x': `${
-                    Math.random() > 0.5
-                      ? RANDOM(300, 800) * -1
-                      : RANDOM(300, 800)
+                    Math.random() > 0.5 ? RANDOM(300, 800) * -1 : RANDOM(300, 800)
                   }%`,
                   '--origin-y': `${
-                    Math.random() > 0.5
-                      ? RANDOM(300, 800) * -1
-                      : RANDOM(300, 800)
+                    Math.random() > 0.5 ? RANDOM(300, 800) * -1 : RANDOM(300, 800)
                   }%`,
                   '--size': `${RANDOM(40, 90) / 100}`
                 } as React.CSSProperties

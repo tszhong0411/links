@@ -40,12 +40,7 @@ const Spotlight = (props: SpotlightProps) => {
           colorInterpolationFilters='sRGB'
         >
           <feFlood floodOpacity='0' result='BackgroundImageFix' />
-          <feBlend
-            mode='normal'
-            in='SourceGraphic'
-            in2='BackgroundImageFix'
-            result='shape'
-          />
+          <feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
           <feGaussianBlur stdDeviation='151' />
         </filter>
       </defs>

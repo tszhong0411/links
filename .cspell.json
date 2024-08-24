@@ -3,24 +3,18 @@
   "dictionaries": ["libraries", "project-words"],
   "dictionaryDefinitions": [
     {
+      "description": "A list of libraries",
       "name": "libraries",
-      "path": "./.cspell/libraries.txt",
-      "description": "A list of libraries"
+      "path": "./.cspell/libraries.txt"
     },
     {
+      "description": "A list of project specific words",
       "name": "project-words",
-      "path": "./.cspell/project-words.txt",
-      "description": "A list of project specific words"
+      "path": "./.cspell/project-words.txt"
     }
   ],
-  "files": [
-    "**/*.{js,cjs,mjs,ts,jsx,tsx,md,mdx,html,json,css,toml,yaml,yml,css}"
-  ],
-  "ignorePaths": [
-    "*lock.{yaml,json}",
-    "CHANGELOG.md",
-    "*.txt"
-  ],
+  "files": ["**/*.{js,cjs,mjs,ts,jsx,tsx,md,mdx,html,json,css,toml,yaml,yml,css}"],
+  "ignorePaths": ["*lock.{yaml,json}", "CHANGELOG.md", "*.txt"],
   "import": [
     "@cspell/dict-typescript/cspell-ext.json",
     "@cspell/dict-companies/cspell-ext.json",

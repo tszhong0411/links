@@ -11,10 +11,10 @@ type RootLayoutProps = {
   children: React.ReactNode
 }
 
-const SITE_URL = process.env.NODE_ENV === 'production'
-  ? 'https://links.honghong.me'
-  : 'http://localhost:3000'
-const SITE_DESCRIPTION = 'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
+const SITE_URL =
+  process.env.NODE_ENV === 'production' ? 'https://links.honghong.me' : 'http://localhost:3000'
+const SITE_DESCRIPTION =
+  'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
 const SITE_TITLE = 'Links | Hong - A Full Stack Developer'
 
 export const metadata: Metadata = {
@@ -50,12 +50,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL
   },
-  keywords: [
-    'tszhong0411',
-    'tszhong0411 social media',
-    'tszhong0411 links',
-    'links'
-  ],
+  keywords: ['tszhong0411', 'tszhong0411 social media', 'tszhong0411 links', 'links'],
   creator: 'tszhong0411',
   openGraph: {
     url: SITE_URL,
