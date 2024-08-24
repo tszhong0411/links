@@ -1,1 +1,3 @@
 knip
+dbaeumer.vscode-eslint
+bradlc.vscode-tailwindcss
