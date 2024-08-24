@@ -8,7 +8,7 @@ import {
   SiInstagram,
   SiStackoverflow,
   SiSteam,
-  SiTwitter,
+  SiX,
   SiYoutube
 } from 'react-icons/si'
 
@@ -53,9 +53,9 @@ const links = [
     url: 'https://discordapp.com/users/886269624608522240'
   },
   {
-    icon: <SiTwitter className='text-zinc-300' />,
-    title: 'Twitter',
-    url: 'https://twitter.com/tszhong0411'
+    icon: <SiX className='text-zinc-300' />,
+    title: 'X',
+    url: 'https://x.com/tszhong0411'
   },
   {
     icon: <SiStackoverflow className='text-zinc-300' />,
