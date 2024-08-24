@@ -44,7 +44,7 @@ const links = [
   },
   {
     icon: <SiGithub className='text-zinc-300' />,
-    title: 'Github',
+    title: 'GitHub',
     url: 'https://github.com/tszhong0411'
   },
   {
