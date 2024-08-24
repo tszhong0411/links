@@ -33,27 +33,15 @@ importers:
       '@commitlint/config-conventional':
         specifier: 19.2.2
         version: 19.2.2
-      '@cspell/dict-companies':
-        specifier: ^3.1.4
-        version: 3.1.4
       '@cspell/dict-fullstack':
         specifier: ^3.2.0
         version: 3.2.0
-      '@cspell/dict-markdown':
-        specifier: ^2.0.2
-        version: 2.0.2
-      '@cspell/dict-node':
-        specifier: ^5.0.1
-        version: 5.0.1
       '@cspell/dict-npm':
         specifier: ^5.0.18
         version: 5.0.18
       '@cspell/dict-software-terms':
         specifier: ^4.0.10
         version: 4.0.10
-      '@cspell/dict-typescript':
-        specifier: ^3.1.6
-        version: 3.1.6
       '@tszhong0411/eslint-config':
         specifier: ^0.1.11
         version: 0.1.11(@types/eslint@8.56.10)(eslint@8.57.0)(prettier@3.3.3)(tailwindcss@3.4.10)(typescript@5.5.4)
@@ -330,9 +318,6 @@ packages:
 
   '@cspell/dict-makefile@1.0.0':
     resolution: {integrity: sha512-3W9tHPcSbJa6s0bcqWo6VisEDTSN5zOtDbnPabF7rbyjRpNo0uHXHRJQF8gAbFzoTzBBhgkTmrfSiuyQm7vBUQ==}
-
-  '@cspell/dict-markdown@2.0.2':
-    resolution: {integrity: sha512-NXDP0BPhJpgU5lblbFDa+BJ3GfpZ4wMiv70IwoNvSrJWpjtkVqFxSV6alVXj3uxCe5BD0AfKAsqGnmuDn2GY6A==}
 
   '@cspell/dict-monkeyc@1.0.6':
     resolution: {integrity: sha512-oO8ZDu/FtZ55aq9Mb67HtaCnsLn59xvhO/t2mLLTHAp667hJFxpp7bCtr2zOrR1NELzFXmKln/2lw/PvxMSvrA==}
@@ -3273,8 +3258,6 @@ snapshots:
   '@cspell/dict-lua@4.0.3': {}
 
   '@cspell/dict-makefile@1.0.0': {}
-
-  '@cspell/dict-markdown@2.0.2': {}
 
   '@cspell/dict-monkeyc@1.0.6': {}
 

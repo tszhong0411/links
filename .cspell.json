@@ -13,18 +13,14 @@
       "path": "./.cspell/project-words.txt"
     }
   ],
-  "files": ["**/*.{js,cjs,mjs,ts,jsx,tsx,md,mdx,html,json,css,toml,yaml,yml,css}"],
-  "ignorePaths": ["*lock.{yaml,json}", "CHANGELOG.md", "*.txt"],
-  "import": [
-    "@cspell/dict-typescript/cspell-ext.json",
-    "@cspell/dict-companies/cspell-ext.json",
-    "@cspell/dict-fullstack/cspell-ext.json",
-    "@cspell/dict-markdown/cspell-ext.json",
-    "@cspell/dict-npm/cspell-ext.json",
-    "@cspell/dict-node/cspell-ext.json",
-    "@cspell/dict-software-terms/cspell-ext.json"
+  "enableFiletypes": ["tailwindcss"],
+  "files": [
+    "**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,md,mdx,json,yml,yaml,svg,webmanifest}",
+    "**/.*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,md,mdx,json,yml,yaml,svg,webmanifest}",
+    ".*/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,md,mdx,json,yml,yaml,svg,webmanifest}"
   ],
-  "language": "en-US",
+  "ignorePaths": ["pnpm-lock.yaml", "CHANGELOG.md", "*.txt"],
+  "import": ["@cspell/dict-software-terms", "@cspell/dict-npm", "@cspell/dict-fullstack"],
   "useGitignore": true,
   "version": "0.2"
 }
