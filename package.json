@@ -23,7 +23,7 @@
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint --fix .",
-    "prepare": "husky install",
+    "prepare": "husky",
     "start": "next start",
     "type-check": "tsc --noEmit"
   },
