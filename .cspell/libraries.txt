@@ -2,3 +2,4 @@ bradlc.vscode-tailwindcss
 commitlintrc
 dbaeumer.vscode-eslint
 knip
+lightningcss
