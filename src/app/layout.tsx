@@ -1,7 +1,9 @@
-import { GeistSans } from 'geist/font/sans'
 import type { Metadata, Viewport } from 'next'
 
 import '@/styles/globals.css'
+
+import { GeistSans } from 'geist/font/sans'
+
 import Footer from '@/components/footer'
 
 import Analytics from './analytics'
