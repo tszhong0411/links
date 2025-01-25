@@ -2,7 +2,7 @@
   <img src="https://honghong.me/images/projects/links/cover.png">
 </p>
 
-## ⚡️ Tech Stack
+## Tech Stack
 
 | Name       | Link                                                      |
 | ---------- | --------------------------------------------------------- |
@@ -11,7 +11,7 @@
 | Styling    | [Tailwindcss](https://tailwindcss.com)                    |
 | Icons      | [react-icons](https://react-icons.github.io/react-icons/) |
 
-## 👋 Getting Started
+## Getting Started
 
 Follow these steps to run the project locally on your machine:
 
