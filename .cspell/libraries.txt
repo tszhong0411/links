@@ -1,3 +1,4 @@
-knip
-dbaeumer.vscode-eslint
 bradlc.vscode-tailwindcss
+commitlintrc
+dbaeumer.vscode-eslint
+knip
