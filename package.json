@@ -27,6 +27,11 @@
     "start": "next start",
     "type-check": "tsc --noEmit"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-git"
+    }
+  },
   "dependencies": {
     "@tszhong0411/utils": "^0.0.15",
     "geist": "^1.3.1",
@@ -49,6 +54,7 @@
     "@types/react-dom": "18.3.0",
     "autoprefixer": "^10.4.20",
     "cspell": "^8.14.2",
+    "cz-git": "^1.11.0",
     "eslint": "8.57.0",
     "husky": "^9.1.5",
     "knip": "^5.27.3",
