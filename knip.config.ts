@@ -2,7 +2,7 @@ import { type KnipConfig } from 'knip'
 
 const config: KnipConfig = {
   commitlint: {
-    config: 'commitlint.config.mjs'
+    config: 'commitlint.config.ts'
   },
   ignoreBinaries: ['only-allow'],
   ignoreDependencies: ['prettier-plugin-*'],
