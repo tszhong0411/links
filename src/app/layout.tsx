@@ -15,7 +15,7 @@ type RootLayoutProps = {
 
 const SITE_URL =
   process.env.NODE_ENV === 'production' ? 'https://links.honghong.me' : 'http://localhost:3000'
-const SITE_TITLE = 'Links | Hong - A Full Stack Developer'
+const SITE_TITLE = 'Links | Nelson Lai - A Full Stack Engineer'
 const SITE_DESCRIPTION =
   'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
 
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   manifest: '/favicon/site.webmanifest',
   twitter: {
-    title: 'Hong',
+    title: 'Nelson Lai',
     card: 'summary_large_image',
     site: '@tszhong0411',
     creator: '@tszhong0411',
