@@ -14,7 +14,6 @@
     "build": "next build",
     "check": "pnpm lint && pnpm type-check && pnpm format:check && pnpm check:spelling && pnpm check:knip",
     "check:knip": "knip",
-    "check:npm": "pnpm dlx npm-check-updates --deep --interactive --format group",
     "check:spelling": "cspell --show-context --show-suggestions",
     "clean": "rm -rf .next",
     "dev": "next dev --turbo",
