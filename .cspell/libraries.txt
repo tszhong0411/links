@@ -1,3 +1,0 @@
-bradlc.vscode-tailwindcss
-dbaeumer.vscode-eslint
-lightningcss
