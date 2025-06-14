@@ -14,7 +14,7 @@ type RootLayoutProps = {
 }
 
 const SITE_URL =
-  process.env.NODE_ENV === 'production' ? 'https://links.honghong.me' : 'http://localhost:3000'
+  process.env.NODE_ENV === 'production' ? 'https://links.nelsonlai.me' : 'http://localhost:3000'
 const SITE_TITLE = 'Links | Nelson Lai - A Full Stack Engineer'
 const SITE_DESCRIPTION =
   'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     creator: '@tszhong0411',
     images: [
       {
-        url: 'https://honghong.me/images/projects/links/cover.png',
+        url: 'https://nelsonlai.me/images/projects/links/cover.png',
         width: 1280,
         height: 832,
         alt: SITE_DESCRIPTION
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     locale: 'en-US',
     images: [
       {
-        url: 'https://honghong.me/images/projects/links/cover.png',
+        url: 'https://nelsonlai.me/images/projects/links/cover.png',
         width: 1280,
         height: 832,
         alt: SITE_DESCRIPTION,

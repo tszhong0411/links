@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://honghong.me/images/projects/links/cover.png">
+  <img src="https://nelsonlai.me/images/projects/links/cover.png">
 </p>
 
 ## Tech Stack

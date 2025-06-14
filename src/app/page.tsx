@@ -20,7 +20,7 @@ const links = [
   {
     icon: <FiBook className='text-zinc-300' />,
     title: 'Blog',
-    url: 'https://honghong.me/blog'
+    url: 'https://nelsonlai.me/blog'
   },
   {
     icon: <SiYoutube className='text-zinc-300' />,
@@ -75,7 +75,7 @@ const HomePage = () => {
       <div className='relative mx-auto flex flex-col items-center justify-center gap-4 pb-10 pt-24'>
         <Spotlight className='-top-4 left-56' />
         <Image
-          src='https://honghong.me/images/avatar.png'
+          src='https://nelsonlai.me/images/avatar.png'
           width={90}
           height={90}
           alt='Logo'
